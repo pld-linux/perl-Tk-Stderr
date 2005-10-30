@@ -6,6 +6,7 @@
 %define	pdir	Tk
 %define	pnam	Stderr
 Summary:	Tk::Stderr - capture standard error output, display in separate window
+Summary(pl):	Tk::Stderr - przechwytywanie standardowego wyj¶cia b³êdów, wy¶wietlanie w innym oknie
 Name:		perl-Tk-Stderr
 Version:	1.2
 Release:	0.1
@@ -27,6 +28,12 @@ This module captures that standard error of a program and redirects it
 to a read only text widget, which doesn't appear until necessary. When
 it does appear, the user can close it; it'll appear again when there
 is more output.
+
+%description -l pl
+Ten modu³ przechwytuje standardowe wyj¶cie b³êdów z programu i
+przekierowuje je do widgetu tekstowego tylko do odczytu, który nie
+pojawia siê dopóki nie jest potrzebny. Kiedy siê pojawi, u¿ytkownik
+mo¿e go zamkn±æ; pojawi siê znowu, kiedy bêdzie wiêcej wyj¶cia.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
