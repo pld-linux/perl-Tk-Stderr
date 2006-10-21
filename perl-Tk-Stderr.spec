@@ -9,7 +9,7 @@ Summary:	Tk::Stderr - capture standard error output, display in separate window
 Summary(pl):	Tk::Stderr - przechwytywanie standardowego wyj¶cia b³êdów, wy¶wietlanie w innym oknie
 Name:		perl-Tk-Stderr
 Version:	1.2
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
