@@ -6,7 +6,7 @@
 %define	pdir	Tk
 %define	pnam	Stderr
 Summary:	Tk::Stderr - capture standard error output, display in separate window
-Summary(pl.UTF-8):   Tk::Stderr - przechwytywanie standardowego wyjścia błędów, wyświetlanie w innym oknie
+Summary(pl.UTF-8):	Tk::Stderr - przechwytywanie standardowego wyjścia błędów, wyświetlanie w innym oknie
 Name:		perl-Tk-Stderr
 Version:	1.2
 Release:	1
