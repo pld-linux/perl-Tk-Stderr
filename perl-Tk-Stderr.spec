@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_with	tests		# perform "make test". requires DISPLAY=:0 being available
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Tk
 %define	pnam	Stderr
+%include	/usr/lib/rpm/macros.perl
 Summary:	Tk::Stderr - capture standard error output, display in separate window
 Summary(pl.UTF-8):	Tk::Stderr - przechwytywanie standardowego wyjścia błędów, wyświetlanie w innym oknie
 Name:		perl-Tk-Stderr
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	86f0f85d24d2c1e72e1e5a039b0f0d72
+URL:		http://search.cpan.org/dist/Tk-Stderr/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
