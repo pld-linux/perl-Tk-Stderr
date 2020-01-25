@@ -4,7 +4,6 @@
 
 %define	pdir	Tk
 %define	pnam	Stderr
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tk::Stderr - capture standard error output, display in separate window
 Summary(pl.UTF-8):	Tk::Stderr - przechwytywanie standardowego wyjścia błędów, wyświetlanie w innym oknie
 Name:		perl-Tk-Stderr
